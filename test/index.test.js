@@ -9,7 +9,7 @@ describe('array method tests', () => {
     it('removes any words that contain Y or y', () => {
         const results = removeY(arr);
 
-        expect(results).toEqual([ 'hot', 'green' ]);
+        expect(results).toEqual(['hot', 'green']);
     });
     it('modifies original word to be a phrase "Is it <word>"', () => {
         const results = makePhrase(arr);

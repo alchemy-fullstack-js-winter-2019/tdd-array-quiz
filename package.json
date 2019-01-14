@@ -16,5 +16,13 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Masmics/tdd-array-quiz.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Masmics/tdd-array-quiz/issues"
+  },
+  "homepage": "https://github.com/Masmics/tdd-array-quiz#readme"
 }

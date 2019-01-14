@@ -5,7 +5,7 @@ const {
 describe('filter', () => {
   it('takes out words with Y or y', () => {
     const filtered = ['sky', 'hot', 'Yeti', 'green'].filter(ele => {
-      return ele % 2 === 0;
+      return filtered;
     });
     expect(filtered).toEqual(['sky', 'hot', 'green']);
   });

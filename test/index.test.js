@@ -5,7 +5,7 @@ describe('array method tests', () => {
         const arr = ['sky', 'hot', 'Yeti', 'green'];
         const results = removeY(arr);
 
-        expect(results).toEqual(['hot', 'green']);
+        expect(results).toEqual([ 'hot', 'green' ]);
     });
 })
 

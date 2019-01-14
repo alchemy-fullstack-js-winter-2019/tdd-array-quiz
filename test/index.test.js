@@ -9,4 +9,8 @@ describe('guessFn', () => {
     const words = ['blue', 'red', 'green', 'purple'];
     expect(guessFn(words)).toEqual(['Is it blue?', 'Is it red?', 'Is it green?', 'Is it purple?']);
   });
+  it('can reply \'No results\' if empty array', () => {
+    const words = [];
+    expect(guessFn(words)).toEqual('No results');
+  });
 });

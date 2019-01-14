@@ -5,6 +5,6 @@ describe('filters and "replaces" words', () => {
     const array = ['sky', 'hot', 'Yeti', 'green'];
     const final = ['Is it hot?', 'Is it green?'];
     filteredArray(array);
-    expect().toEqual(final);
+    expect(array).toEqual(final);
   });
 });

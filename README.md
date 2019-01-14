@@ -18,6 +18,7 @@ Input | Output
 
 **NOTE: You are _not_ being asked to implement the array methods like we did on the second lab. You are using normal, built-in array methods and combining them to achieve a specific purpose!**
 
+
 ## Repo
 
 Included files:

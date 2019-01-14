@@ -54,3 +54,4 @@ Quiz is open book, internet, etc...
     * **Focus effort on requirements of the lab**. Seriously, read the [Instructions] section _more than once_ paying attention to detail.
 1. Total possible points are 40. You will be graded out of 30 points
 1. Demonstrate what you can accomplish by having **passing travis ci** and showing working code!
+1. Small change for PR

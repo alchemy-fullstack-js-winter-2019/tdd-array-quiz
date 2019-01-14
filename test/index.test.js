@@ -4,6 +4,6 @@ describe('removeWords', () => {
     const words = ['sky', 'hot', 'Yeti', 'green'].includes(ele => {
       return ele === [1, 3];
     });
-
+    expect(words);
   });
 });

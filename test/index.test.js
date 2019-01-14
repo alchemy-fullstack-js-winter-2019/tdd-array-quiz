@@ -1,0 +1,1 @@
+const { filter } = require require('../lib/index.js');

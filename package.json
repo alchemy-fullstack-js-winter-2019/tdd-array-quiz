@@ -5,7 +5,8 @@
   "main": "index.js",
   "directories": {
     "lib": "lib",
-    "test": "test"
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "scripts": {
     "test": "jest",
@@ -16,5 +17,11 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^23.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.0"
+  }
 }

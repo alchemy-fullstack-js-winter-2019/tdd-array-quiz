@@ -1,4 +1,4 @@
-# Quiz: TDD and Functional Array Methods
+# quiz: TDD and Functional Array Methods
 
 * Use **standard lab submission procedure** that you have used for past 9 weeks: fork, clone, work, push, PR!
 

@@ -10,8 +10,6 @@ describe('arry methods', () => {
       });
       expect(filterResult).toEqual(['hot', 'green']);
     });
-  });
-  describe('implementation of map', () => {
     it('map', () => {
       var word = 'hot';
       var word2 = 'green';

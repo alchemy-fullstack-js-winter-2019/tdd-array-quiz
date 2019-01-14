@@ -6,9 +6,7 @@ const filteredArray = function(array) {
       }
     }
     for(let i = 0; i < array.length; i++) {
-      array.map(word => {
-        'Is that ' + word + '?';
-      });
+      array.map(word => 'Is that ' + word + '?');
     }
     return array;
   });

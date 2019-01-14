@@ -5,4 +5,8 @@ describe('guessFn', () => {
     const words = ['sky', 'hot', 'Yeti', 'green'];
     expect(guessFn(words)).toEqual(['Is it hot?', 'Is it green?']);
   });
+  it('if no words in array have y or Y, can reply with all words and ask questions', () => {
+    const words = ['blue', 'red', 'green', 'purple'];
+    expect(guessFn(words)).toEqual(['Is it blue?', 'Is it red?', 'Is it green?', 'Is it purple?']);
+  });
 });

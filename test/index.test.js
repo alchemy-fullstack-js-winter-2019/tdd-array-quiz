@@ -13,7 +13,7 @@ describe('array method tests', () => {
     it('modifies original word to be a phrase "Is it <word>"', () => {
         const results = makePhrase(arr);
 
-        expect(results).toEqual(['Is it sky?', 'Is it hot?', 'Is it Yet?', 'Is it green?']);
+        expect(results).toEqual(['Is it sky?', 'Is it hot?', 'Is it Yeti?', 'Is it green?']);
     });
 })
 
